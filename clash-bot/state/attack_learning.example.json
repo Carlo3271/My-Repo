@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "exploration_rate": 0.15,
+  "min_samples_per_strategy": 2,
+  "max_history": 200,
+  "strategies": [
+    {
+      "name": "edrag_funnel",
+      "routine": "clash_attack_edrag_bottom_push_widescreen",
+      "base_score": 0,
+      "notes": "Bottom-side E-Dragon push for the 1600x900 widescreen view: heroes make a lower funnel, Balloons scout traps, E-Dragons deploy as one line, then Rage/Freeze through core."
+    }
+  ],
+  "attacks": []
+}

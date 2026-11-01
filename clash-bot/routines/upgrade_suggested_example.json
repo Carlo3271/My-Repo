@@ -1,0 +1,9 @@
+{
+  "name": "upgrade suggested example",
+  "steps": [
+    { "label": "open builder status", "tap": "builder_status", "wait_after": 1.0 },
+    { "label": "tap first suggested upgrade", "tap": { "x": 0.500, "y": 0.250 }, "wait_after": 0.8 },
+    { "label": "confirm upgrade", "tap": "upgrade_confirm", "wait_after": 1.0 },
+    { "label": "close dialog if still open", "tap": "close_dialog", "wait_after": 0.5 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Clash 1400x900 first suggested upgrade",
+  "steps": [
+    { "label": "open builder suggestions", "tap": "builder_status", "wait_after": 0.5 },
+    { "label": "select first suggestion", "tap": "suggested_upgrade_1", "wait_after": 0.8 },
+    { "label": "open upgrade action", "tap": "upgrade_button", "wait_after": 0.8 },
+    { "label": "confirm upgrade if prompted", "tap": "upgrade_confirm", "wait_after": 1.0 },
+    { "label": "checkpoint", "screenshot": "screenshots/upgrade_attempt.png" }
+  ]
+}

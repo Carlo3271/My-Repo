@@ -1,0 +1,31 @@
+{
+  "name": "example portrait 1080x1920",
+  "screen": {
+    "width": 1080,
+    "height": 1920
+  },
+  "anchors": {
+    "home_attack": { "x": 0.090, "y": 0.905 },
+    "find_match": { "x": 0.500, "y": 0.785 },
+    "next_match": { "x": 0.870, "y": 0.910 },
+    "end_battle": { "x": 0.090, "y": 0.080 },
+    "return_home": { "x": 0.500, "y": 0.830 },
+
+    "builder_status": { "x": 0.160, "y": 0.055 },
+    "shop": { "x": 0.910, "y": 0.900 },
+    "upgrade_confirm": { "x": 0.500, "y": 0.785 },
+    "close_dialog": { "x": 0.920, "y": 0.125 },
+
+    "troop_slot_1": { "x": 0.120, "y": 0.925 },
+    "troop_slot_2": { "x": 0.250, "y": 0.925 },
+    "troop_slot_3": { "x": 0.380, "y": 0.925 },
+    "spell_slot_1": { "x": 0.700, "y": 0.925 },
+
+    "deploy_top_left": { "x": 0.205, "y": 0.345 },
+    "deploy_top_right": { "x": 0.790, "y": 0.345 },
+    "deploy_left_mid": { "x": 0.155, "y": 0.530 },
+    "deploy_right_mid": { "x": 0.845, "y": 0.530 },
+    "deploy_bottom_left": { "x": 0.205, "y": 0.705 },
+    "deploy_bottom_right": { "x": 0.790, "y": 0.705 }
+  }
+}

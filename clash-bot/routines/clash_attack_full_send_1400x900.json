@@ -1,0 +1,49 @@
+{
+  "name": "Clash 1400x900 full-send attack",
+  "steps": [
+    { "label": "open or reuse battle", "ensure_battle": { "timeout": 12.0, "interval": 0.5, "screenshot": "screenshots/battle_ready.png" } },
+    { "label": "battle checkpoint", "screenshot": "screenshots/attack_loaded.png" },
+
+    { "label": "select first troop", "tap": "troop_slot_1", "wait_after": 0.2 },
+    {
+      "repeat": 3,
+      "steps": [
+        { "tap": "deploy_top_left", "wait_after": 0.12 },
+        { "tap": "deploy_top_right", "wait_after": 0.12 },
+        { "tap": "deploy_bottom_left", "wait_after": 0.12 },
+        { "tap": "deploy_bottom_right", "wait_after": 0.12 }
+      ]
+    },
+
+    { "label": "select second troop", "tap": "troop_slot_2", "wait_after": 0.2 },
+    {
+      "repeat": 4,
+      "steps": [
+        { "tap": "deploy_left_mid", "wait_after": 0.10 },
+        { "tap": "deploy_right_mid", "wait_after": 0.10 }
+      ]
+    },
+
+    { "label": "select third troop", "tap": "troop_slot_3", "wait_after": 0.2 },
+    {
+      "repeat": 2,
+      "steps": [
+        { "tap": "deploy_top_mid", "wait_after": 0.10 },
+        { "tap": "deploy_bottom_mid", "wait_after": 0.10 }
+      ]
+    },
+
+    { "label": "drop heroes", "tap": "hero_king", "wait_after": 0.15 },
+    { "tap": "deploy_bottom_mid", "wait_after": 0.15 },
+    { "tap": "hero_warden", "wait_after": 0.15 },
+    { "tap": "deploy_bottom_mid", "wait_after": 0.15 },
+    { "tap": "hero_queen", "wait_after": 0.15 },
+    { "tap": "deploy_bottom_mid", "wait_after": 0.15 },
+
+    { "label": "use first spell", "tap": "spell_slot_1", "wait_after": 0.2 },
+    { "tap": "spell_core", "wait_after": 0.2 },
+    { "tap": "spell_core", "wait_after": 0.2 },
+
+    { "label": "post-deploy screenshot", "screenshot": "screenshots/attack_deployed.png" }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Clash of Clans scrcpy iPad 1600x1200",
+  "package": "com.supercell.clashofclans",
+  "display": {
+    "id": "auto",
+    "note": "Use CLASH_PRESET=ipad or clash-phone --ipad; scrcpy --new-display id changes every launch."
+  },
+  "screen": {
+    "width": 1600,
+    "height": 1200
+  },
+  "desktop_mirror": {
+    "window_title": "Clash of Clans",
+    "window_width": 1440,
+    "window_height": 810,
+    "content_width": 1440,
+    "content_height": 810,
+    "render_fit": "stretched",
+    "note": "The Android virtual display is 4:3 for a tablet-style FOV, then scrcpy stretches it into the normal 16:9 desktop mirror."
+  },
+  "deployment": {
+    "auto_perimeter": false,
+    "perimeter_screenshot": "screenshots/perimeter_live.png",
+    "tap_offset_px": 34,
+    "safe_bounds": {
+      "left": 140,
+      "top": 120,
+      "right": 1460,
+      "bottom": 989
+    }
+  },
+  "anchors": {
+    "home_attack": { "x": 0.062, "y": 0.909 },
+    "find_match": { "x": 0.171, "y": 0.742 },
+    "army_attack": { "x": 0.856, "y": 0.811 },
+    "next_match": { "x": 0.914, "y": 0.762 },
+    "end_battle": { "x": 0.063, "y": 0.789 },
+    "boost_army": { "x": 0.210, "y": 0.789 },
+
+    "builder_status": { "x": 0.521, "y": 0.047 },
+    "suggested_upgrade_1": { "x": 0.479, "y": 0.322 },
+    "suggested_upgrade_2": { "x": 0.479, "y": 0.367 },
+    "suggested_upgrade_3": { "x": 0.479, "y": 0.412 },
+    "upgrade_button": { "x": 0.642, "y": 0.804 },
+    "upgrade_confirm": { "x": 0.642, "y": 0.804 },
+    "close_dialog": { "x": 0.914, "y": 0.113 },
+
+    "shop": { "x": 0.940, "y": 0.902 },
+    "settings": { "x": 0.962, "y": 0.762 },
+
+    "troop_slot_1": { "x": 0.184, "y": 0.922 },
+    "troop_slot_2": { "x": 0.247, "y": 0.922 },
+    "troop_slot_3": { "x": 0.310, "y": 0.922 },
+    "troop_slot_4": { "x": 0.371, "y": 0.922 },
+    "troop_slot_5": { "x": 0.435, "y": 0.922 },
+    "troop_balloons": { "x": 0.184, "y": 0.922 },
+    "troop_minions": { "x": 0.247, "y": 0.922 },
+    "troop_edragons": { "x": 0.310, "y": 0.922 },
+    "hero_queen": { "x": 0.371, "y": 0.922 },
+    "hero_king": { "x": 0.435, "y": 0.922 },
+    "spell_rage": { "x": 0.505, "y": 0.922 },
+    "spell_freeze": { "x": 0.568, "y": 0.922 },
+    "spell_lightning": { "x": 0.631, "y": 0.922 },
+    "siege_slot": { "x": 0.310, "y": 0.922 },
+    "hero_minion_prince": { "x": 0.435, "y": 0.922 },
+    "hero_warden": { "x": 0.435, "y": 0.922 },
+    "spell_slot_1": { "x": 0.505, "y": 0.922 },
+    "spell_slot_2": { "x": 0.568, "y": 0.922 },
+
+    "deploy_top_left": { "x": 0.240, "y": 0.210 },
+    "deploy_top_mid": { "x": 0.500, "y": 0.170 },
+    "deploy_top_right": { "x": 0.760, "y": 0.210 },
+    "deploy_left_mid": { "x": 0.105, "y": 0.500 },
+    "deploy_right_mid": { "x": 0.847, "y": 0.560 },
+    "deploy_bottom_left": { "x": 0.249, "y": 0.846 },
+    "deploy_bottom_mid": { "x": 0.496, "y": 0.822 },
+    "deploy_bottom_right": { "x": 0.736, "y": 0.815 },
+    "deploy_top_edge_left": { "x": 0.170, "y": 0.295 },
+    "deploy_top_edge_right": { "x": 0.830, "y": 0.295 },
+    "deploy_left_edge_top": { "x": 0.130, "y": 0.390 },
+    "deploy_left_edge_bottom": { "x": 0.160, "y": 0.680 },
+    "deploy_right_edge_top": { "x": 0.870, "y": 0.390 },
+    "deploy_right_edge_bottom": { "x": 0.840, "y": 0.680 },
+    "deploy_bottom_edge_left": { "x": 0.300, "y": 0.805 },
+    "deploy_bottom_edge_right": { "x": 0.700, "y": 0.805 },
+    "spell_core": { "x": 0.520, "y": 0.470 },
+    "spell_top_core": { "x": 0.500, "y": 0.360 },
+    "spell_bottom_core": { "x": 0.510, "y": 0.580 }
+  }
+}

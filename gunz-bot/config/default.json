@@ -1,0 +1,42 @@
+{
+  "window_name": "GunZ|FGunZ|Freestyle",
+  "countdown_seconds": 3,
+  "keys": {
+    "forward": "w",
+    "back": "s",
+    "left": "a",
+    "right": "d",
+    "jump": "space",
+    "block": "Shift_L",
+    "reload": "r",
+    "sword": "1",
+    "gun1": "2",
+    "gun2": "3"
+  },
+  "mouse": {
+    "attack": 1
+  },
+  "timing": {
+    "tap": 0.035,
+    "dash_tap": 0.032,
+    "dash_gap": 0.040,
+    "mouse_click": 0.035,
+    "jump_to_dash": 0.085,
+    "dash_to_slash": 0.065,
+    "slash_to_block": 0.050,
+    "slash_to_gun": 0.080,
+    "block_hold": 0.055,
+    "weapon_switch": 0.085,
+    "shot_recover": 0.075,
+    "reload_cancel": 0.070,
+    "half_step_to_shot": 0.075,
+    "wall_jump_delay": 0.110,
+    "cycle_recover": 0.110
+  },
+  "spar": {
+    "aim_jitter_px": 36
+  },
+  "safety": {
+    "release_keys_on_exit": true
+  }
+}

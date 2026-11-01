@@ -1,0 +1,7 @@
+{
+  "name": "Clash 1400x900 open first match only",
+  "steps": [
+    { "label": "open or reuse battle", "ensure_battle": { "timeout": 12.0, "interval": 0.5, "screenshot": "screenshots/battle_ready.png" } },
+    { "label": "battle checkpoint", "screenshot": "screenshots/attack_loaded.png" }
+  ]
+}

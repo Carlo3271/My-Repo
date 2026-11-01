@@ -1,0 +1,254 @@
+{
+  "version": 1,
+  "exploration_rate": 0.0,
+  "min_samples_per_strategy": 2,
+  "max_history": 200,
+  "strategies": [
+    {
+      "name": "edrag_funnel",
+      "routine": "routines/clash_attack_edrag_bottom_push_widescreen.json",
+      "base_score": 0,
+      "attempts": 9,
+      "scored_attempts": 0,
+      "average_score": null,
+      "best_score": null,
+      "last_score": null
+    }
+  ],
+  "attacks": [
+    {
+      "started_at": "2026-05-30T13:52:40",
+      "ended_at": "2026-05-30T13:54:23",
+      "strategy": "adaptive_widescreen",
+      "routine": "clash_attack_adaptive_widescreen",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T135240_adaptive_widescreen.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-30T13:56:31",
+      "ended_at": "2026-05-30T13:57:27",
+      "strategy": "adaptive_widescreen",
+      "routine": "clash_attack_adaptive_widescreen",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T135631_adaptive_widescreen.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-30T14:09:15",
+      "ended_at": "2026-05-30T14:10:10",
+      "strategy": "adaptive_widescreen",
+      "routine": "clash_attack_adaptive_widescreen",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T140915_adaptive_widescreen.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-30T14:26:44",
+      "ended_at": "2026-05-30T14:27:42",
+      "strategy": "adaptive_widescreen",
+      "routine": "clash_attack_adaptive_widescreen",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T142644_adaptive_widescreen.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-30T14:28:17",
+      "ended_at": "2026-05-30T14:29:16",
+      "strategy": "adaptive_widescreen",
+      "routine": "clash_attack_adaptive_widescreen",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T142817_adaptive_widescreen.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-30T14:31:29",
+      "ended_at": "2026-05-30T14:32:14",
+      "strategy": "adaptive_widescreen",
+      "routine": "clash_attack_adaptive_widescreen",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T143129_adaptive_widescreen.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-30T14:45:16",
+      "ended_at": "2026-05-30T14:46:17",
+      "strategy": "adaptive_widescreen",
+      "routine": "clash_attack_adaptive_widescreen",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T144516_adaptive_widescreen.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-30T15:02:22",
+      "ended_at": "2026-05-30T15:03:16",
+      "strategy": "adaptive_widescreen",
+      "routine": "clash_attack_adaptive_widescreen",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T150222_adaptive_widescreen.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-30T15:04:57",
+      "ended_at": "2026-05-30T15:05:52",
+      "strategy": "adaptive_widescreen",
+      "routine": "clash_attack_adaptive_widescreen",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T150457_adaptive_widescreen.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-30T15:17:21",
+      "ended_at": "2026-05-30T15:18:08",
+      "strategy": "edrag_funnel",
+      "routine": "clash_attack_edrag_funnel_widescreen",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T151721_edrag_funnel.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-30T15:20:12",
+      "ended_at": "2026-05-30T15:24:01",
+      "strategy": "edrag_funnel",
+      "routine": "routines/clash_attack_edrag_funnel_widescreen.json",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T152012_edrag_funnel.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-30T15:30:15",
+      "ended_at": "2026-05-30T15:31:05",
+      "strategy": "edrag_funnel",
+      "routine": "routines/clash_attack_edrag_funnel_widescreen.json",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T153015_edrag_funnel.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-30T15:50:57",
+      "ended_at": "2026-05-30T15:51:48",
+      "strategy": "edrag_funnel",
+      "routine": "routines/clash_attack_edrag_funnel_widescreen.json",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T155057_edrag_funnel.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-30T15:54:20",
+      "ended_at": "2026-05-30T15:55:11",
+      "strategy": "edrag_funnel",
+      "routine": "routines/clash_attack_edrag_funnel_widescreen.json",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T155420_edrag_funnel.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-30T17:22:34",
+      "ended_at": "2026-05-30T17:23:20",
+      "strategy": "edrag_funnel",
+      "routine": "routines/clash_attack_edrag_funnel_widescreen.json",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260530T172234_edrag_funnel.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-31T11:08:45",
+      "ended_at": "2026-05-31T11:09:31",
+      "strategy": "edrag_funnel",
+      "routine": "routines/clash_attack_edrag_funnel_widescreen.json",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260531T110845_edrag_funnel.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-31T11:12:00",
+      "ended_at": "2026-05-31T11:12:48",
+      "strategy": "edrag_funnel",
+      "routine": "routines/clash_attack_edrag_funnel_widescreen.json",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260531T111200_edrag_funnel.png"
+      ],
+      "dry_run": false
+    },
+    {
+      "started_at": "2026-05-31T11:59:50",
+      "ended_at": "2026-05-31T12:00:45",
+      "strategy": "edrag_funnel",
+      "routine": "routines/clash_attack_edrag_bottom_push_ipad.json",
+      "profile": "profiles/clash_1600x900_display_auto.json",
+      "result": {},
+      "score": null,
+      "screenshots": [
+        "screenshots/attack_results/20260531T115950_edrag_funnel.png"
+      ],
+      "dry_run": false
+    }
+  ]
+}

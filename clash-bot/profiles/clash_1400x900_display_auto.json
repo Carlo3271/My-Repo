@@ -1,0 +1,59 @@
+{
+  "name": "Clash of Clans scrcpy 1400x900",
+  "package": "com.supercell.clashofclans",
+  "display": {
+    "id": "auto",
+    "note": "scrcpy --new-display id changes every launch; the bot auto-detects the 1400x900 Clash display"
+  },
+  "screen": {
+    "width": 1400,
+    "height": 900
+  },
+  "desktop_mirror": {
+    "window_title": "Clash of Clans",
+    "window_width": 1440,
+    "window_height": 900,
+    "x_scale_to_android": 0.9722222222
+  },
+  "anchors": {
+    "home_attack": { "x": 0.062, "y": 0.909 },
+    "find_match": { "x": 0.171, "y": 0.742 },
+    "army_attack": { "x": 0.856, "y": 0.811 },
+    "next_match": { "x": 0.914, "y": 0.762 },
+    "end_battle": { "x": 0.063, "y": 0.789 },
+    "boost_army": { "x": 0.210, "y": 0.789 },
+
+    "builder_status": { "x": 0.521, "y": 0.047 },
+    "suggested_upgrade_1": { "x": 0.479, "y": 0.322 },
+    "suggested_upgrade_2": { "x": 0.479, "y": 0.367 },
+    "suggested_upgrade_3": { "x": 0.479, "y": 0.412 },
+    "upgrade_button": { "x": 0.642, "y": 0.804 },
+    "upgrade_confirm": { "x": 0.642, "y": 0.804 },
+    "close_dialog": { "x": 0.914, "y": 0.113 },
+
+    "shop": { "x": 0.940, "y": 0.902 },
+    "settings": { "x": 0.962, "y": 0.762 },
+
+    "troop_slot_1": { "x": 0.124, "y": 0.940 },
+    "troop_slot_2": { "x": 0.204, "y": 0.940 },
+    "troop_slot_3": { "x": 0.284, "y": 0.940 },
+    "troop_slot_4": { "x": 0.348, "y": 0.940 },
+    "troop_slot_5": { "x": 0.420, "y": 0.940 },
+    "siege_slot": { "x": 0.501, "y": 0.940 },
+    "hero_king": { "x": 0.574, "y": 0.940 },
+    "hero_warden": { "x": 0.653, "y": 0.940 },
+    "hero_queen": { "x": 0.724, "y": 0.940 },
+    "spell_slot_1": { "x": 0.802, "y": 0.940 },
+    "spell_slot_2": { "x": 0.871, "y": 0.940 },
+
+    "deploy_top_left": { "x": 0.240, "y": 0.210 },
+    "deploy_top_mid": { "x": 0.500, "y": 0.170 },
+    "deploy_top_right": { "x": 0.760, "y": 0.210 },
+    "deploy_left_mid": { "x": 0.105, "y": 0.500 },
+    "deploy_right_mid": { "x": 0.847, "y": 0.560 },
+    "deploy_bottom_left": { "x": 0.249, "y": 0.846 },
+    "deploy_bottom_mid": { "x": 0.496, "y": 0.822 },
+    "deploy_bottom_right": { "x": 0.736, "y": 0.815 },
+    "spell_core": { "x": 0.520, "y": 0.470 }
+  }
+}

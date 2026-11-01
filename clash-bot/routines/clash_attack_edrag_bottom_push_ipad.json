@@ -1,0 +1,50 @@
+{
+  "name": "Clash E-Drag bottom push iPad",
+  "steps": [
+    { "label": "open or reuse battle", "ensure_battle": { "timeout": 12.0, "interval": 0.35, "screenshot": "screenshots/battle_ready.png" } },
+    { "label": "battle checkpoint", "screenshot": "screenshots/attack_loaded.png" },
+
+    { "label": "set lower funnel", "tap": "hero_queen", "wait_after": 0.16 },
+    { "tap": { "anchor": "deploy_bottom_edge_left", "auto_perimeter": false }, "wait_after": 0.18 },
+    { "tap": "hero_king", "wait_after": 0.16 },
+    { "tap": { "anchor": "deploy_bottom_edge_right", "auto_perimeter": false }, "wait_after": 0.35 },
+
+    { "label": "balloons scout traps", "tap": "troop_balloons", "wait_after": 0.18 },
+    { "tap": { "anchor": "deploy_bottom_edge_left", "auto_perimeter": false }, "wait_after": 0.10 },
+    { "tap": { "anchor": "deploy_bottom_mid", "auto_perimeter": false }, "wait_after": 0.10 },
+    { "tap": { "anchor": "deploy_bottom_edge_right", "auto_perimeter": false }, "wait_after": 0.10 },
+    { "tap": { "anchor": "deploy_bottom_edge_left", "auto_perimeter": false }, "wait_after": 0.10 },
+    { "tap": { "anchor": "deploy_bottom_mid", "auto_perimeter": false }, "wait_after": 0.10 },
+    { "tap": { "anchor": "deploy_bottom_edge_right", "auto_perimeter": false }, "wait_after": 0.25 },
+
+    { "label": "electro dragons in one line", "tap": "troop_edragons", "wait_after": 0.20 },
+    { "tap": { "anchor": "deploy_bottom_edge_left", "auto_perimeter": false }, "wait_after": 0.12 },
+    { "tap": { "anchor": "deploy_bottom_mid", "auto_perimeter": false }, "wait_after": 0.12 },
+    { "tap": { "anchor": "deploy_bottom_edge_right", "auto_perimeter": false }, "wait_after": 0.12 },
+    { "tap": { "anchor": "deploy_bottom_edge_left", "auto_perimeter": false }, "wait_after": 0.12 },
+    { "tap": { "anchor": "deploy_bottom_mid", "auto_perimeter": false }, "wait_after": 0.12 },
+    { "tap": { "anchor": "deploy_bottom_edge_right", "auto_perimeter": false }, "wait_after": 0.45 },
+
+    { "label": "cleanup behind push", "tap": "troop_minions", "wait_after": 0.16 },
+    { "tap": { "anchor": "deploy_bottom_edge_left", "auto_perimeter": false }, "wait_after": 0.10 },
+    { "tap": { "anchor": "deploy_bottom_edge_right", "auto_perimeter": false }, "wait_after": 0.10 },
+    { "tap": { "anchor": "deploy_left_edge_bottom", "auto_perimeter": false }, "wait_after": 0.10 },
+    { "tap": { "anchor": "deploy_right_edge_bottom", "auto_perimeter": false }, "wait_after": 0.25 },
+
+    { "label": "rage the entry and core", "tap": "spell_rage", "wait_after": 0.16 },
+    { "tap": "spell_bottom_core", "wait_after": 0.45 },
+    { "tap": "spell_core", "wait_after": 0.75 },
+    { "tap": "spell_top_core", "wait_after": 0.35 },
+
+    { "label": "freeze core defenses", "tap": "spell_freeze", "wait_after": 0.16 },
+    { "tap": "spell_core", "wait_after": 0.45 },
+    { "tap": "spell_top_core", "wait_after": 0.45 },
+    { "tap": "spell_bottom_core", "wait_after": 0.35 },
+
+    { "label": "trigger hero abilities", "wait": 3.0 },
+    { "tap": "hero_queen", "wait_after": 0.12 },
+    { "tap": "hero_king", "wait_after": 0.12 },
+
+    { "label": "post-deploy screenshot", "screenshot": "screenshots/attack_deployed.png" }
+  ]
+}

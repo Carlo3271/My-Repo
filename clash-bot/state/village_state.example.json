@@ -1,0 +1,80 @@
+{
+  "town_hall": 12,
+  "resources": {
+    "gold": 12000000,
+    "elixir": 10500000,
+    "dark_elixir": 180000
+  },
+  "builders": {
+    "free": 2,
+    "total": 5
+  },
+  "builder_window_hours": 14,
+  "town_hall_last": true,
+  "town_hall_policy": "last",
+  "focus": ["offense", "army"],
+  "weights": {
+    "army": 5,
+    "offense": 5,
+    "heroes": 4,
+    "economy": 3,
+    "defense": 2,
+    "traps": 1
+  },
+  "upgrades": [
+    {
+      "id": "laboratory_10",
+      "name": "Laboratory 9 -> 10",
+      "category": "army",
+      "priority": 85,
+      "cost": { "elixir": 6000000 },
+      "time_hours": 96,
+      "requires": { "town_hall": 12 },
+      "routine": "clash_upgrade_suggested_1400x900"
+    },
+    {
+      "id": "army_camp_10_a",
+      "name": "Army Camp 9 -> 10",
+      "category": "offense",
+      "priority": 80,
+      "cost": { "elixir": 8500000 },
+      "time_hours": 120,
+      "requires": { "town_hall": 12 },
+      "routine": "clash_upgrade_suggested_1400x900"
+    },
+    {
+      "id": "hero_king_51",
+      "name": "Barbarian King 50 -> 51",
+      "category": "heroes",
+      "priority": 70,
+      "cost": { "dark_elixir": 120000 },
+      "time_hours": 72,
+      "requires": { "town_hall": 12 },
+      "routine": "clash_upgrade_suggested_1400x900"
+    },
+    {
+      "id": "gold_mine_14_a",
+      "name": "Gold Mine 13 -> 14",
+      "category": "economy",
+      "priority": 30,
+      "cost": { "elixir": 3000000 },
+      "time_hours": 12,
+      "requires": { "town_hall": 11 },
+      "routine": "clash_upgrade_suggested_1400x900"
+    },
+    {
+      "id": "town_hall_13",
+      "name": "Town Hall 12 -> 13",
+      "category": "town_hall",
+      "town_hall_upgrade": true,
+      "priority": 999,
+      "cost": { "gold": 12000000 },
+      "time_hours": 168,
+      "requires": {
+        "town_hall": 12,
+        "all_other_upgrades_maxed": true
+      },
+      "routine": "clash_upgrade_suggested_1400x900"
+    }
+  ]
+}

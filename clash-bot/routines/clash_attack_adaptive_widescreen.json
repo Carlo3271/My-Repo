@@ -1,0 +1,53 @@
+{
+  "name": "Clash adaptive widescreen edge attack",
+  "steps": [
+    { "label": "open or reuse battle", "ensure_battle": { "timeout": 12.0, "interval": 0.5, "screenshot": "screenshots/battle_ready.png" } },
+    { "label": "battle checkpoint", "screenshot": "screenshots/attack_loaded.png" },
+
+    { "label": "deploy balloons", "tap": "troop_slot_1", "wait_after": 0.12 },
+    {
+      "repeat": 3,
+      "steps": [
+        { "tap": "deploy_left_edge_top", "wait_after": 0.10 },
+        { "tap": "deploy_right_edge_top", "wait_after": 0.10 },
+        { "tap": "deploy_left_edge_bottom", "wait_after": 0.10 },
+        { "tap": "deploy_right_edge_bottom", "wait_after": 0.10 }
+      ]
+    },
+
+    { "label": "deploy minions", "tap": "troop_slot_2", "wait_after": 0.12 },
+    {
+      "repeat": 2,
+      "steps": [
+        { "tap": "deploy_top_edge_left", "wait_after": 0.08 },
+        { "tap": "deploy_top_edge_right", "wait_after": 0.08 },
+        { "tap": "deploy_left_edge_bottom", "wait_after": 0.08 },
+        { "tap": "deploy_right_edge_bottom", "wait_after": 0.08 }
+      ]
+    },
+
+    { "label": "drop heroes behind push", "tap": "hero_minion_prince", "wait_after": 0.12 },
+    { "tap": "deploy_left_edge_bottom", "wait_after": 0.12 },
+    { "tap": "hero_queen", "wait_after": 0.12 },
+    { "tap": "deploy_left_edge_bottom", "wait_after": 0.12 },
+    { "tap": "hero_king", "wait_after": 0.12 },
+    { "tap": "deploy_right_edge_bottom", "wait_after": 0.12 },
+
+    { "label": "use rage spells", "tap": "spell_slot_1", "wait_after": 0.12 },
+    { "tap": "spell_top_core", "wait_after": 0.15 },
+    { "tap": "spell_core", "wait_after": 0.15 },
+    { "tap": "spell_bottom_core", "wait_after": 0.15 },
+
+    { "label": "use freeze spells", "tap": "spell_slot_2", "wait_after": 0.12 },
+    { "tap": "spell_top_core", "wait_after": 0.12 },
+    { "tap": "spell_core", "wait_after": 0.12 },
+    { "tap": "spell_bottom_core", "wait_after": 0.12 },
+
+    { "label": "trigger hero abilities", "wait": 3.0 },
+    { "tap": "hero_minion_prince", "wait_after": 0.10 },
+    { "tap": "hero_king", "wait_after": 0.10 },
+    { "tap": "hero_queen", "wait_after": 0.10 },
+
+    { "label": "post-deploy screenshot", "screenshot": "screenshots/attack_deployed.png" }
+  ]
+}
